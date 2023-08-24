@@ -1,2 +1,13 @@
 .next
 node_modules
+.next/build-manifest.json
+.next/trace
+.next/cache/webpack/client-development/0.pack
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/server-development/0.pack
+.next/cache/webpack/server-development/index.pack
+.next/server/middleware-build-manifest.js
+.next/server/pages-manifest.json
+.next/server/webpack-runtime.js
+.next/static/chunks/webpack.js
+.next/static/development/_buildManifest.js
