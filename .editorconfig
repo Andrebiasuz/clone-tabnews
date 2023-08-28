@@ -1,0 +1,7 @@
+root = true
+
+// to all files asterisk used
+
+[*] 
+indent_style = space
+indent_size = 2
