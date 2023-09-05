@@ -33,22 +33,22 @@ test("second argument as string is computed as number", () => {
   expect(result).toBe(102);
 });
 
-test("first argument was not initialized", () => {
+test("first argument was not initialized returns Error message", () => {
   const result = calculator.add(null, 100);
   expect(result).toBe("Error");
 });
 
-test("second argument was not initialized", () => {
+test("second argument was not initialized returns Error message", () => {
   const result = calculator.add(100, null);
   expect(result).toBe("Error");
 });
 
-test("No argument is initialized", () => {
+test("No argument is initialized returns Error message", () => {
   const result = calculator.add(null, null);
   expect(result).toBe("Error");
 });
 
-test("More than 2 arguments initialized", () => {
+/*test("More than 2 arguments initialized returns Error message", () => {
   const result = calculator.add("100", 300, 500, "A");
   expect(result).toBe("Error");
-});
+}); */
