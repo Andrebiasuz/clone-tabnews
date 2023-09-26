@@ -11,3 +11,4 @@ node_modules
 .next/server/webpack-runtime.js
 .next/static/chunks/webpack.js
 .next/static/development/_buildManifest.js
+/workspaces/clone-tabnews/node_modules
