@@ -11,3 +11,7 @@ node_modules
 .next/server/webpack-runtime.js
 .next/static/chunks/webpack.js
 .next/static/development/_buildManifest.js
+.next/build-manifest.json
+.next/trace
+.next/static/chunks/webpack.js
+.next/static/development/_buildManifest.js
